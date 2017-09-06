@@ -71,12 +71,7 @@ public class LoginController {
 		return modelAndView;
 	}
 	
-	@RequestMapping(value="/accessDenied")
-	public ModelAndView accessDenied(){
-		ModelAndView modelAndView = new ModelAndView();
-		modelAndView.setViewName("accessDenied");
-		return modelAndView;
-	}
+
 	
 
 }
